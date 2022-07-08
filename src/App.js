@@ -1,16 +1,15 @@
 import React from 'react'
-import { Header, Content, Footer } from './func-components'
-import Calendar from './class-components'
+import MsgBox2 from './func-props'
 
 function App() {
 	return (
-		<>
-			<Header/>
-			<p><center><Calendar/></center></p>
-			<Content/>
-			<Footer/>
-	  	</>
-	)
-	
+		<MsgBox2
+			text="การใช้ props ใน Function Component"
+			color="red"
+			bgColor="#ccc"
+			fontSize="18pt"
+			border="solid 1px black"
+	  	/>
+	)	
 }
 export default App
