@@ -1,5 +1,5 @@
 import React from 'react'
-/*
+
 export class Calculator extends React.Component {
     n1 = 15
     n2 = 5
@@ -22,8 +22,8 @@ export class Calculator extends React.Component {
             </div>
         )
     }
-}*/
-
+}
+/*
 export function Calculator2() {
     const n1 = 20
     const n2 = 4    
@@ -44,4 +44,4 @@ export function Calculator2() {
             <span>{n2}</span>
         </div>
     )
-}
+}*/
