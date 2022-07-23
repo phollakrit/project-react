@@ -1,7 +1,7 @@
 import React from 'react'
-import {Table}  from './table'
+import RefsFunc from './refs-func'
 
 export default function App() {
-	return <Table/>	
+	return <RefsFunc/>	
 }
 
